@@ -1,0 +1,244 @@
+body {
+    direction: rtl;
+}
+
+main {
+    .head {
+
+        >div:nth-of-type(1) {
+            height: 180px;
+            background-color: rgba(0, 0, 0, 0.671);
+        }
+
+    }
+
+    .br {
+        border-radius: 10px;
+    }
+
+    .bgg {
+        background-color: rgba(0, 0, 0, 0.384);
+    }
+
+    .bt {
+        color: gray
+    }
+
+    .size {
+        font-size: 13px;
+        height: 50px;
+    }
+
+    .cen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .cen1 {
+        margin: 0 10px;
+    }
+
+    .box {
+        box-shadow: 1px 2px 3px 3px rgb(226, 5, 5);
+        background-color: rgb(226, 5, 5);
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .box1 {
+        box-shadow: 1px 2px 3px 3px rgb(238, 129, 27);
+        background-color: rgb(238, 129, 27);
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .box2 {
+        box-shadow: 1px 2px 3px 3px rgb(221, 221, 4);
+        background-color: rgb(221, 221, 4);
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .h {
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.164);
+    }
+
+    .pic {
+        width: 250px;
+        height: 70px;
+
+        >img {
+            background-size: cover;
+            width: 100%;
+            height: 95%;
+
+        }
+    }
+
+    .hei {
+        height: 70px;
+    }
+
+    .ml {
+
+        margin-top: 20px;
+    }
+
+    .sub {
+        height: 70px;
+
+        >ul {
+
+            li {
+                list-style-type: none;
+                margin: 10px;
+
+                &:nth-of-type(2) {
+                    &:hover {
+                        >.po1 {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                >a {
+                    text-decoration: none;
+                    display: flex;
+
+
+                    color: white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: black;
+                    height: 100%;
+
+                    // &:hover {
+                    //     color: red;
+                    //     text-decoration: underline;
+                    // }
+
+
+
+
+                }
+            }
+
+        }
+    }
+
+    .bg1 {
+        background-color: rgba(169, 169, 169, 0.11) !important;
+
+    }
+
+    .hei2 {
+        height: 400px;
+
+        >div {
+
+
+            >img {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+
+    }
+
+    .para {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .bg3 {
+        background-color: rgba(128, 128, 128, 0.041);
+        box-shadow: 1px 1px 2px 5px rgba(128, 128, 128, 0.185);
+    }
+
+    .para1 {
+        font-size: 10px;
+    }
+
+    .para2 {
+        font-size: 12px;
+        line-height: 30px;
+        border-bottom: 3px dotted rgba(128, 128, 128, 0.479);
+    }
+
+    .pic2 {
+        >img {
+            width: 100%;
+            height: 90%;
+            background-size: cover;
+        }
+    }
+
+    .bg4 {
+        background-color: rgba(0, 0, 0, 0.644);
+    }
+
+    .bg5 {
+        box-shadow: 1px 1px 1px 5px rgba(128, 128, 128, 0.178);
+
+
+    }
+
+
+    .po {
+        position: relative;
+    }
+
+    .po1 {
+        position: absolute;
+        background-color: chartreuse;
+        width: 40%;
+        height: 300px;
+        top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0;
+        visibility: hidden;
+
+        >li {
+            background-color: rgb(235, 110, 26);
+            width: 30px;
+            height: 20px;
+
+
+            >a {
+                background-color: aqua;
+                display: flex;
+                width: 100%;
+                height: 100%;
+
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+}
